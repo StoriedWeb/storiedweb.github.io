@@ -2,75 +2,116 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>Project: Event invite</title>
         <style>
             body{
-                font:italica 1em;
-                background-color: lightsalmon;
+                background-color:rgb(25,25,25);
             }
             h1{
-                font:bold 4em;
-                color:rgb(153, 23, 153);
+                font-family: fantasy;
+                font-size: 40px;
                 border-bottom-color: black;
-                border-bottom-style: solid;
+                border-bottom-width: medium; 
             }
-            h3{
-                font-style: italic;
-                text-decoration-color: crimson;
-                color:deeppink
+            .body{
+                background-color: azure;
+                position: absolute;
+                overflow: auto;
+                overflow-x: auto;
+                overflow-y: auto;
+                padding-left: 3%;
+                padding-right: 3%;
+                margin-left: 20%;
+                margin-right: 25%;
+                
             }
-            #menu{
-                border-color:white;
-                border-style: double;
-                border-width: medium;
-                background-color: aquamarine;
+            .botones{
+                margin-left: 33.3%;
+                padding: 15px;
             }
-            .title{
-                font-family: cursive;
-                font-size: 1.5em;
-                font-style: oblique;
-                color:blueviolet;
-            }
-            #cuadro{
-                border-color:black;
-                border-style: groove;
-                border-width: medium;
-                background-color: whitesmoke;
+            #pie_d_pag{
+                color: white;
             }
         </style>
     </head>
-    <body>        
-        <h1>Luis' blog</h1>
-        ola, wenas y bienvenidos
-        <h3>Contents</h3>
-        <ul id="menu">
-            <li><a href="#inicios">Inicios en el mundo de la programacion</a></li>
-            <li><a href="#html_b">HTML basico</a></li>
-            <li><a href="#html_a">HTML avanzado</a></li>
-            <li><a href="#css_b">CSS basico</a></li>
-        </ul>
-        <br><br><br><br>
-        <h2 class="title" id="inicios">Inicios en el mundo de la programacion</h2>
-        <h6>Hace mucho tiempo en una galaxia muy lejana</h6>
-        <p>En segundo de prepa aprendia a programar, muchos de esos conocimientos ya se me fueron epro con este curso he recordado algunas partes. El primer lenguaje en el que programe fue en MS-Dos, hice un virus gusano muy sensillo como el siguiente:</p>
-        <p id="cuadro"><br>
-            @echo off<br>
-            :etiq<br>
-            start<br>
-            goto :etiq<br><br>
-        </p>
-        <h2 class="title" id="html_b">HTML basico</h2>
-        <h6>Hace un poco más de tiempo en una galaxia muy lejana</h6>
-        <p>Despues de un tiempo, de parender Visual basic en el colegio un porfesor nos empezo a enseñar sonre paginas web e hicimos una magina web. Fue muy basico pero weno, hacia más que mis compañeros</p>
-        <h2 class="title" id="html_a">Html avanzado</h2>
-        <h6>Hace aun más tiempo tiempo en una galaxia muy lejana</h6>
-        <p>Despues de las clases mi mejor amigo y yo empezamos a enfocarnos en programar pagians web, la verdad es que el se adelanto y parendio mucho css, yo me dedique un poco mas en el diseño y hacer mas tonterias con vbs y cmd. junto con la creacion de una carpeta con millones de etiquetas en html, css, vbs y pyton. una semana despues de hacer esa carpeta una chica me la pidio y yo muy amable se la preste, hasta ala actualidad esa señorita teine la Luigipedia .-.</p>
-        <h2 class="title" id="css_b">CSS basico</h2>
-        <h6>Hace aun mucho más tiempo en una galaxia muy lejana</h6>
-        <p>nunca me demostre interesado más en css, ahsta hace poco que mi papá se puso re pesado con la compu y empece a  hacer una pagina web, esta muy basica pero para que vea que no pierdo el tiempo jsjsjsj :p</p>
-        
-        <p>en conclucion: hay talento, solo hace falta esfuerzo y ganas jsjsjsj</p>
-        <p id="pd"><strong>PD:</strong>Estuve investigando así que aprendi como hacer lo siguente:</p>
-        <iframe width="1310" height="480" src="https://www.youtube.com/embed/uEt5lYXwT-U?list=TLPQMjYwMzIwMjF4G_WJ3fCdTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <body>
+       <div class=body>
+           <h1 id=1>Desayuno</h1>
+           <ul>
+               <li>Jugos (naranja, zanahoria, betabel o combinado)….30</li>
+               <li>Fruta de temporada (con miel, yogurt, granola o queso cottage)…$50</li>
+               <li>Hot Cakes o Waffles (mantequilla, mermelada, miel o maple)…$60</li>
+               <li>Molletes (al gusto con jamón, tocino o longaniza)…$75</li>
+               <li>Huevos(albañil, a la mexicana o naturales)con frijoles refritos…….70</li>
+               <li>Huevos (jamón, tocino o chorizo) con frijoles refritos…….75</li>
+               <li>Omelette (natural, champiñones, jamon, queso o chorizo)…95</li>
+               <li>Sincronizadas (3 pzas.)………… 70</li>
+               <li>Chilaquiles verdes o rojos (crema, queso, frijoles y pollo o huevo)…90</li>
+               <li>Chilaquiles verdes o rojos sencillos (crema, queso, frijoles y cebolla)…70</li>
+               <li>Café americano…….35</li>
+               <li>Pan e dulce (pieza) 10</li>
+            </ul>
+Entradas
+•	Entremés Santa Teresa(100g jamón serrano, 100g longaniza, 100g jamón cocido, 100g queso, aceitunas y pepinillos)…………200
+•	Chalupas poblanas (6)….85
+•	Tacos dorados de cordero o pollo (3)(con crema, lechuga y queso)….90
+•	Enchiladas verdes o rojas al gratin(3)(con pollo y frijoles refritos)……115
+•	Enchiladas de mole pobleno(3)(con pollo, ajonjolin y acos de cebolla)…..125
+Ensaladas
+•	Ensalada mixta (L. sangría, orejona, jitomate y aros de cebolla)….60
+•	Ensalada de la Hacienda(L. orejona, sangría, pimientos, tocino y queso)….100
+Sopas
+•	Sopa Azteca (crema natural, aguacate, queso de la casa)…..75
+•	Tarrito de consomé de cornero….35
+•	Consomé de cordero….70
+•	Consomé de pollo(con arroz rojo y pollo deshebrado)….65
+•	Mole de panza….70
+Pastas
+•	Espagueti a la boloñesa…90
+•	Espagueti a la crema(blanco o rojo) o a la mantequilla…..70
+Plato fuerte
+•	Barbacoa de hoyo; de cordero 250g (sin hueso, con ensalada de nopal y arroz blanco)…..140
+•	Kilo de barbacoa (con arroz blanco y ensalada de nopal) .............. $560.00
+•	Taco de barbacoa de hoyo 85g (con ensalada de nopal) ….... $50.00
+•	Mixiote de cordero con arroz rojo (350g) ........$115.00
+•	*Kilo de Mixiote de cordero (con arroz rojo) …..$345,00
+•	*Cordero a la plancha 300g (con nopal y cebollitas asadas) ……: $200.00
+•	*Conejo a la plancha natural o marinado 300g (al chiltepín, al ajillo o al mojo de ajo) (con nopales y cebollitas asadas) ............... «$125.00
+•	Pollo: Pechuga aplanada(250g) o Pierna y cuádril (300g) a la plancha, natural o marinado (al chiltepín, al ajillo o al mojo de ajo) (con papas a la francesa) ..$125.00
+•	Combinado de carnes 150g de c/u (Cordero, conejo, arrachera, longaniza de la casa) (con nopales y cebollitas asadas) .......................... $300.00
+•	Arrachera 300g (termino al gusto con nopales y cebollitas asadas) .............$320.00
+•	Milanesa de res 200g (con ensalada o papas a la francesa) ...........cccmc. $150.00
+•	Lomo de cerdo natural o marinado a la mostaza 350g (ensalada mixta) .....$140.00
+•	Longaniza de la Hacienda (de pura carne250g con ensalada mixta) .............. $140.00
+•	Filete de pescado marinado al chiltepín, al ajillo o al mojo de ajo (con arroz blanco y ensalada mixta)…………. $200.00
+Guarnición extra
+•	Orden de aguacate o guacamole, papas a la francesa, mantequilla y crema natural……….$35.00
+•	Huevo, Arroz, frijoles, ensalada de nopales, ensalada mixta, cebollitas cambray, nopales asados (2), pico de gallo ……………………………… $20.00
+MENÚ INFANTIL
+•	Pollo a la plancha (con papas a la francesa) ....$85.00
+•	Hot dog (con papas a la francesa) ....... $65.00
+•	Nugets de pollo (6 Pzas) (con papas a la francesa) ………….$65.00
+•	Hamburguesa Santa Teresa (Carne Orgánica con papas a la francesa) .......... $95.00
+•	Huevos “KIDS” (5 huevos de codorniz estrellados con arroz rojo) ................. $75.00
+POSTRES
+•	Pay helado de limimon……………$55.00
+•	Pay de queso con Zarzamora (con o sin azúcar) ...$55.00
+•	Helado artesanal (fresa o zarzamora)…..$70
+Bebidas
+Jara de agua de sabor (horchata, Jamaica, tamarindo)……… $90.00
+Vaso de agua de sabor (horchata, Jamaica, tamarindo) ……………….$30.00
+Naranjada o limonada (natural o mineral) o…….. $30.00
+Refresco de lata ……. $25.00
+Agua embotellada…… $25.00
+Cerveza clara y obscura (Corona, XX lager, Indio, Victoria) ...... $45.00
+Michelada clara y obscura (escarchado y con limón) ……..$50.00
+Chelada clara y obscura (escarchado y con salsas) ………….$65.00
+Bebidas calientes
+Capuchino…….$45
+Café descafeinado (refil) ..............$45.00
+Café expreso…..$45
+Café Americano de grano (refil) .............. $35.00
+Té (preguntar por los sabores) ................. $35.00
+         </div>
     </body>
 </html>
