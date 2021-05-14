@@ -2,13 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=2">
+        <meta name="viewport" content="width=device-width, initial-scale=10">
         <title>Project: Event invite</title>
         <style>
             body{
-                background-image: url(https://storiedweb.github.io/182179606_1216300642131466_8872297809743231993_n.jpg);
+                <!--background-image: url(https://storiedweb.github.io/182179606_1216300642131466_8872297809743231993_n.jpg);-->
                 background-repeat: no-repeat;
                 background-attachment: fixed;
+                background-color: rgb(30,30,30);
             }
             #encabezado{
                 background-color: rgb(30,30,30);
@@ -18,6 +19,9 @@
                 top: 0;
                 width: 100%;
                 height: 8%;
+                border-color:rgb (0,0,0);
+                border-width: medium;
+                border-style: inherit;
                 
             }
             #nombre{
@@ -25,8 +29,13 @@
                 font-family: serif;
                 font-style: italic; 
                 font-size: 40px;
-                padding-left: 40%;
+                padding-left: 35%;
                 top:4%;
+            }
+            #logo{
+                position: absolute;
+                top:100px; 
+                right: 35%;
             }
             h1{
                 font-family: fantasy;
@@ -34,6 +43,8 @@
                 border-bottom-color:black;
                 border-bottom-style: groove;
                 border-bottom-width: medium;
+                color:rgb(255,0,0);
+                padding-left: 10px;
             } 
             #imagen_logo{
                 position: absolute;
@@ -53,12 +64,20 @@
                 overflow: auto;
                 overflow-x: auto;
                 overflow-y: auto;
-                padding-top: 100px;
+                padding-top: 50px;
                 padding-left: 3%;
                 padding-right: 3%;
                 margin-left: 10%;
                 margin-right: 10%;
-                margin-top: 20%;
+                margin-top: 40%;
+                
+            }
+            .secciones{
+                border-color: black;
+                border-style: dashed;
+                border-width: medium;
+                padding: 10px;
+                margin-top: 10px;
                 
             }
             li{
@@ -72,44 +91,49 @@
                   <!--<center>-->Hacianda Santa Teresa<!--</center>-->
               </div>
          </div>
+         <div id=logo>
+             <img src="https://storiedweb.github.io/Hacienda Nuenologo 2 (1).png" width="400px">
+         </div>
             <div class=body>
             <div>
-               <div>
+               <div class=secciones>
                    <h1 id=First>Desayuno</h1>
                    <ul>
-                       <li>Jugos (naranja, zanahoria, betabel o combinado)….30</li>
+                       <li>Jugos (naranja, zanahoria, betabel o combinado)….$30</li>
                        <li>Fruta de temporada (con miel, yogurt, granola o queso cottage)…$50</li>
                        <li>Hot Cakes o Waffles (mantequilla, mermelada, miel o maple)…$60</li>
                        <li>Molletes (al gusto con jamón, tocino o longaniza)…$75</li>
-                       <li>Huevos(albañil, a la mexicana o naturales)con frijoles refritos…….70</li>
-                       <li>Huevos (jamón, tocino o chorizo) con frijoles refritos…….75</li>
-                       <li>Omelette (natural, champiñones, jamon, queso o chorizo)…95</li>
-                       <li>Sincronizadas (3 pzas.)………… 70</li>
-                       <li>Chilaquiles verdes o rojos (crema, queso, frijoles y pollo o huevo)…90</li>
-                       <li>Chilaquiles verdes o rojos sencillos (crema, queso, frijoles y cebolla)…70</li>
-                       <li>Café americano…….35</li>
-                       <li>Pan e dulce (pieza) 10</li>
+                       <li>Huevos(albañil, a la mexicana o naturales)con frijoles refritos…….$70</li>
+                       <li>Huevos (jamón, tocino o chorizo) con frijoles refritos…….$75</li>
+                       <li>Omelette (natural, champiñones, jamon, queso o chorizo)…$95</li>
+                       <li>Sincronizadas (3 pzas.)………… $70</li>
+                       <li>Chilaquiles verdes o rojos (crema, queso, frijoles y pollo o huevo)…$90</li>
+                       <li>Chilaquiles verdes o rojos sencillos (crema, queso, frijoles y cebolla)…$70</li>
+                       <li>Café americano…….$35</li>
+                       <li>Pan e dulce (pieza) $10</li>
                     </ul>
                </div>
-               <img src="https://storiedweb.github.io/182179606_1216300642131466_8872297809743231993_n.jpg">
-               <div>
+                <!--<center>
+               <img src="https://storiedweb.github.io/182179606_1216300642131466_8872297809743231993_n.jpg" height=100% width="100%">
+                </center>-->
+               <div class=secciones>
                    <h1>Entradas</h1>
                    <ul>
-                       <li>Entremés Santa Teresa(100g jamón serrano, 100g longaniza, 100g jamón cocido, 100g queso, aceitunas y pepinillos)…………200</li>
-                       <li>Chalupas poblanas (6)….85</li>
-                       <li>Tacos dorados de cordero o pollo (3)(con crema, lechuga y queso)….90</li>
-                       <li>Enchiladas verdes o rojas al gratin(3)(con pollo y frijoles refritos)……115</li>
-                       <li>Enchiladas de mole pobleno(3)(con pollo, ajonjolin y acos de cebolla)…..125</li>
+                       <li>Entremés Santa Teresa(100g jamón serrano, 100g longaniza, 100g jamón cocido, 100g queso, aceitunas y pepinillos)…………$200</li>
+                       <li>Chalupas poblanas (6)….$85</li>
+                       <li>Tacos dorados de cordero o pollo (3)(con crema, lechuga y queso)….$90</li>
+                       <li>Enchiladas verdes o rojas al gratin(3)(con pollo y frijoles refritos)……$115</li>
+                       <li>Enchiladas de mole pobleno(3)(con pollo, ajonjolin y acos de cebolla)…..$125</li>
                    </ul>
                </div>
-                <div>
+                <div class=secciones>
                     <h1>Ensaladas</h1>
                     <ul>
-                        <li>Ensalada mixta (L. sangría, orejona, jitomate y aros de cebolla) …. $60</li>
+                        <li>Ensalada mixta (L. sangría, orejona, jitomate y aros de cebolla) …. $$60</li>
                         <li>Ensalada de la Hacienda (L. orejona, sangría, pimientos, tocino y queso) …. $100</li>
                     </ul>
                 </div>
-                <div>
+                <div class=secciones>
                     <h1>Sopas</h1>
                     <ul>
                         <li>Sopa Azteca (crema natural, aguacate, queso de la casa) ….. $75</li>             
@@ -119,12 +143,12 @@
                         <li>Mole de panza …. $70</li>
                     </ul>
                 </div>
-                <div>
+                <div class=secciones>
                     <h1>Pastas</h1>
                     <li>Espagueti a la boloñesa … $90</li>
                     <li>Espagueti a la crema (blanco o rojo) o a la mantequilla ….. $70</li>
                 </div>
-                <div>
+                <div class=secciones>
                     <h1>Plato fuerte</h1>
                     <ul>
                         <li>Barbacoa de hoyo; de cordero 250g (sin hueso, con ensalada de nopal y arroz blanco) ….. $140</li>
@@ -148,128 +172,160 @@
                         <li>Huevo, Arroz, frijoles, ensalada de nopales, ensalada mixta, cebollitas cambray, nopales asados (2), pico de gallo ……………………………… $20.00</li>
                     </ul>
                 </div>
-                <div>
-                    <h1>MENÚ INFANTIL</h1>
-                •	Pollo a la plancha (con papas a la francesa) .... $85.00
-                •	Hot dog (con papas a la francesa) ....... $65.00
-                •	Nugets de pollo (6 piezas) (con papas a la francesa) …………. $65.00
-                •	Hamburguesa Santa Teresa (Carne Orgánica con papas a la francesa) .......... $95.00
-                •	Huevos “KIDS” (5 huevos de codorniz estrellados con arroz rojo) ................. $75.00
+                <div class=secciones>
+                    <h1>Menú infantil</h1>
+                    <ul>
+                        <li>Pollo a la plancha (con papas a la francesa) .... $85.00</li>
+                        <li>Hot dog (con papas a la francesa) ....... $65.00</li>
+                        <li>Nugets de pollo (6 piezas) (con papas a la francesa) …………. $65.00</li>
+                        <li>Hamburguesa Santa Teresa (Carne Orgánica con papas a la francesa) .......... $95.00</li>
+                        <li>Huevos “KIDS” (5 huevos de codorniz estrellados con arroz rojo) ................. $75.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>POSTRES</h1>
-                •	Pay helado de limón……………$55.00
-                •	Pay de queso con Zarzamora (con o sin azúcar) ... $55.00
-                •	Helado artesanal (fresa o zarzamora) ….. $70
+                <div class=secciones>
+                    <h1>Postres</h1>
+                    <ul>
+                <li>Pay helado de limón……………$55.00
+                        <li>Pay de queso con Zarzamora (con o sin azúcar) ... $55.00</li>
+                        <li>Helado artesanal (fresa o zarzamora) ….. $70</li>
+                    </ul>
                 </div>
-                <div>
+                <div class=secciones>
                     <h1>Bebidas</h1>
-                Jara de agua de sabor (horchata, Jamaica, tamarindo) ……… $90.00
-                Vaso de agua de sabor (horchata, Jamaica, tamarindo) ………………. $30.00
-                Naranjada o limonada (natural o mineral) …….. $30.00
-                Refresco de lata ……. $25.00
-                Agua embotellada …… $25.00
-                Cerveza clara y obscura (Corona, XX lager, Indio, Victoria) ...... $45.00
-                Michelada clara y obscura (escarchado y con limón) …….. $50.00
-                Chelada clara y obscura (escarchado y con salsas) …………. $65.00
+                    <ul>
+                        <li>Jara de agua de sabor (horchata, Jamaica, tamarindo) ……… $90.00</li>
+                        <li>Vaso de agua de sabor (horchata, Jamaica, tamarindo) ………………. $30.00</li>
+                        <li>Naranjada o limonada (natural o mineral) …….. $30.00</li>
+                        <li>Refresco de lata ……. $25.00</li>
+                        <li>Agua embotellada …… $25.00</li>
+                        <li>Cerveza clara y obscura (Corona, XX lager, Indio, Victoria) ...... $45.00</li>
+                        <li>Michelada clara y obscura (escarchado y con limón) …….. $50.00</li>
+                        <li>Chelada clara y obscura (escarchado y con salsas) …………. $65.00</li>
+                    </ul>
                 </div>
-                <div>
+                <div class=secciones>
                     <h1>Bebidas calientes</h1>
-                Capuchino ……. $45
-                Café descafeinado (refil) .............. $45.00
-                Café expreso ….. $45
-                Café Americano de grano (refil) .............. $35.00
-                Té (preguntar por los sabores) ................. $35.00
+                    <ul>
+                        <li>Capuchino ……. $45</li>
+                        <li>Café descafeinado (refil) .............. $45.00</li>
+                        <li>Café expreso ….. $45</li>
+                        <li>Café Americano de grano (refil) .............. $35.00</li>
+                        <li>Té (preguntar por los sabores) ................. $35.00</li>
+                    </ul>
                 </div>
-                <div>
+                <div class=secciones>
                     <h1>Cocteles</h1>
-                Jarra de clericó……. $200.00
-                Clamato preparado…… $70.00
-                Piña colada preparada .......... $70.00
-                Sangria preparade…….. $70.00
-                Bloody Marry……..$60
-                Tequila Sunrise……… $70.00
-                Margarita……$70.00
-                Clamato natural…….$60.00
-                Jugo de tomate preparado ......$60.00
-                Rusa……..$25.00
+                    <ul>
+                        <li>Jarra de clericó……. $200.00</li>
+                        <li>Clamato preparado…… $70.00</li>
+                        <li>Piña colada preparada .......... $70.00</li>
+                        <li>Sangria preparade…….. $70.00</li>
+                        <li>Bloody Marry……..$60</li>
+                        <li>Tequila Sunrise……… $70.00</li>
+                        <li>Margarita……$70.00</li>
+                        <li>Clamato natural…….$60.00</li>
+                        <li>Jugo de tomate preparado ......$60.00</li>
+                        <li>Rusa……..$25.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>RON copa / botella</h1>
-                Antillano Blanco .......................... $55.00 / $550.00
-                Bacardi Blanco……..$55.00 / $550.00
-                Appleton Special Rum ............... $60.00 /$600.00
-                Matusalem Platino ..................... $65.00 / $650.00
-                Matusalem Clásico ..................... $70.00 / $700.00
-                Appleton estate…….$85.00 / $850.00
+                <div class=secciones>
+                    <h1>Ron copa / botella</h1>
+                    <ul>
+                        <li>Antillano Blanco .......................... $55.00 / $550.00</li>
+                        <li>Bacardi Blanco……..$55.00 / $550.00</li>
+                        <li>Appleton Special Rum ............... $60.00 /$600.00</li>
+                        <li>Matusalem Platino ..................... $65.00 / $650.00</li>
+                        <li>Matusalem Clásico ..................... $70.00 / $700.00</li>
+                        <li>Appleton estate…….$85.00 / $850.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>BRANDY</h1>
-                Fundador……..$55.00 / $550.00
-                Magno……$65.00 / $650.00
-                Torres 10……….$80.00 / $800.00
-                Torrea 15……..$100.00 / $1,000.00
-                Carlos 1 ...............$140.00 / $1,400.00
+                <div class=secciones>
+                    <h1>Brandy</h1>
+                    <ul>
+                        <li>Fundador……..$55.00 / $550.00</li>
+                        <li>Magno……$65.00 / $650.00</li>
+                        <li>Torres 10……….$80.00 / $800.00</li>
+                        <li>Torrea 15……..$100.00 / $1,000.00</li>
+                        <li>Carlos I ...............$140.00 / $1,400.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>TEQUILA</h1>
-                José Cuervo Especial ................. $60.00 / $600.00
-                José Cuervo tradicional.............. $70.00 /$700.00
-                Don Julio Blanco.......................... $75.00 / $750.00
-                1800 Blanco ............................$75.00/ $750.00
-                1800 Reposado ...........$95.00 / $950.00
-                Don Julio Reposado .................. $95.00 / $950.00
-                Herradura Reposado ............. $95.00 / $950.00
-                Don Julio 70………….$100.00/$1,000.00
+                <div class=secciones>
+                    <h1>Tequila</h1>
+                    <ul>
+                        <li>José Cuervo Especial ................. $60.00 / $600.00</li>
+                        <li>José Cuervo tradicional.............. $70.00 /$700.00</li>
+                        <li>Don Julio Blanco.......................... $75.00 / $750.00</li>
+                        <li>1800 Blanco ............................$75.00/ $750.00</li>
+                        <li>1800 Reposado ...........$95.00 / $950.00</li>
+                        <li>Don Julio Reposado .................. $95.00 / $950.00</li>
+                        <li>Herradura Reposado ............. $95.00 / $950.00</li>
+                        <li>Don Julio 70………….$100.00/$1,000.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>COGNAC</h1>
-                Hennessy V. S…………….$150.00 / $1,500.00
-                    Courvoisier V. S…......$140.00 / $1,400.00
+                <div class=secciones>
+                    <h1>Cognac</h1>
+                    <ul>
+                        <li>Hennessy V. S…………….$150.00 / $1,500.00</li>
+                        <li>Courvoisier V. S…......$140.00 / $1,400.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>WHISKY</h1>
-                Passport………….$50.00 / $500.00
-                Highland Chief………..$50.00 / $500.00
-                J.W Etiqueta Roja..................... $65.00 / $650.00
-                J.W Etiqueta Negra ............ $140.00 / $1,400.00
-                Chivas Regal 12…………………$130.00 / $1,300.00
-                Buchanan's 12…………$140.00 / $1,400.00
+                <div class=secciones>
+                    <h1>Whisky</h1>
+                    <ul>
+                        <li>Passport………….$50.00 / $500.00</li>
+                        <li>Highland Chief………..$50.00 / $500.00</li>
+                        <li>J.W Etiqueta Roja..................... $65.00 / $650.00</li>
+                        <li>J.W Etiqueta Negra ............ $140.00 / $1,400.00</li>
+                        <li>Chivas Regal 12…………………$130.00 / $1,300.00</li>
+                        <li>Buchanan's 12…………$140.00 / $1,400.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>GINEBRA</h1>
-                Bombay sapphire...............$90.00 / $900.00
+                <div class=secciones>
+                    <h1>Ginebra</h1>
+                    <ul>
+                        <li>Bombay sapphire...............$90.00 / $900.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>VODKA</h1>
-                Smirnoff………..$55.00 / $550.00
-                Wyborowa…………………….$65.00 / $650.00
-                Absolut Azul…………..$65.00 / $650.00
+                <div class=secciones>
+                    <h1>Vodka</h1>
+                    <ul>
+                        <li>Smirnoff………..$55.00 / $550.00</li>
+                        <li>Wyborowa…………………….$65.00 / $650.00</li>
+                        <li>Absolut Azul…………..$65.00 / $650.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>DIGESTIVOS</h1>
-                Kahlúa………$40.00 / $300.00
-                Amaretto Conty………………………$50.00 / $500.00
-                Chinchon Dulce.............$50.00 / $450.00
-                Chinchon Seco ............$50.00 / $450.00
-                Controy…………………….$50.00 / $500.00
-                Chartreuse Verde .................. $150.00 / $1,500.00
-                Grand Marnier ............... $130.00 / $1,300.00
-                Licor 43………………………$80.00 / $800.00
-                Amaretto Di Saronno .............. $80.00 / $800.00
-                Sambuca Nero Vaccari ............. $70.00 / $700.00
-                Sambuca Blanco Vaccari............ $60.00/ $600.00
-                Baileys………………. $70.00 / $700.00
+                <div class=secciones>
+                    <h1>Digestivos</h1>
+                    <ul>
+                        <li>Kahlúa………$40.00 / $300.00</li>
+                        <li>Amaretto Conty………………………$50.00 / $500.00</li>
+                        <li>Chinchon Dulce.............$50.00 / $450.00</li>
+                        <li>Chinchon Seco ............$50.00 / $450.00</li>
+                        <li>Controy…………………….$50.00 / $500.00</li>
+                        <li>Chartreuse Verde .................. $150.00 / $1,500.00</li>
+                        <li>Grand Marnier ............... $130.00 / $1,300.00</li>
+                        <li>Licor 43………………………$80.00 / $800.00</li>
+                        <li>Amaretto Di Saronno .............. $80.00 / $800.00</li>
+                        <li>Sambuca Nero Vaccari ............. $70.00 / $700.00</li>
+                        <li>Sambuca Blanco Vaccari............ $60.00/ $600.00</li>
+                        <li>Baileys………………. $70.00 / $700.00</li>
+                    </ul>
                 </div>
-                <div>
-                    <h1>VINOS DE MESA</h1>
-                BLANCO       botella
-                Don Simón / Airén…………… $200.00
-                Diamante ………………. $400.00
-                TINTO
-                Chateu Domeca……………………. $500.00
-                Marqués de Cáceres………….$450.00
-                Sangre de Toro …………………….. $450.00 
+                <div class=secciones>
+                    <h1>Vinos de mesa</h1>
+                    <ul>
+                        <li>Blanco botella</li>
+                    <ul>
+                        <li>Don Simón / Airén…………… $200.00</li>
+                        <li>Diamante ………………. $400.00</li>
+                    </ul>
+                        <li>Tinto</li>
+                    <ul>
+                        <li>Chateu Domeca……………………. $500.00</li>
+                        <li>Marqués de Cáceres………….$450.00</li>
+                        <li>Sangre de Toro …………………….. $450.00 </li>
+                    </ul>
+                    </ul>
                 </div>
            </div>
          </div>
