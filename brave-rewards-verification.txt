@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: storiedweb.github.io
+Token: cc91fe3aee04d09b576f8b29a1339e288cff4b7b9611aab2f2d5a40c836e20ff
